@@ -1,6 +1,6 @@
 # Image-Retrieval
 
-# 1
+
 The Holidays dataset is a public 1 set of images which mainly contains some personal holidays photos. The dataset contains
 1491 images in total : 500 queries and 991 corresponding relevant images.
 
@@ -13,7 +13,7 @@ We compute a similarity score with the euclidean distance with all remaining ima
 Furthermmore, implement other descriptors than just the raw pixels : gray level vs color histogram, Haralick parameters of GLCM vs
 Local Binary Patterns (LBP), HOG descriptors, etc... and see how performance improves
 
-## Bag of Visual Words. Implement a simple version of the Bag of Visual Words model :
+## Bag of Visual Words : Implement a simple version of the Bag of Visual Words model :
 — divide images into patches
 — compute a dictionary of visual words (VW) with k-means
 — assign each patch to its closest VW
